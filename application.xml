@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="embedTest" package="embedTest" version="1.0.0" company="" />
+	<app main="Main" file="embedTest" path="bin" />
+	<window background="#000000" fps="60" />
+	<window width="640" height="480" unless="mobile" />
+	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
+	<haxelib name="openfl" />
+	<assets path="assets" />	
+</project>

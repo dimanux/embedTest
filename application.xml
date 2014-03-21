@@ -6,5 +6,6 @@
 	<window width="640" height="480" unless="mobile" />
 	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
 	<haxelib name="openfl" />
-	<assets path="assets" />	
+	<assets path="assets" unless="html5" />	
+	<assets path="assets" embed="false" if="html5" />	
 </project>
